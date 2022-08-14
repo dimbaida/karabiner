@@ -1,0 +1,54 @@
+{
+  "title": "Switch Ukrainian / Russian",
+  "rules": 
+  [
+    {
+      "description": "Right Shift to Ukrainian",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_shift"
+          },
+          "to": 
+          [
+            {
+              "key_code": "right_shift"
+            }  
+          ],
+          "to_if_alone": [
+            {
+              "select_input_source": {
+                "language": "uk"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Left Shift to Russian",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_shift"
+          },
+          "to": 
+          [
+            {
+              "key_code": "left_shift"
+            }  
+          ],
+          "to_if_alone": [
+            {
+              "select_input_source": {
+                "language": "ru"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
