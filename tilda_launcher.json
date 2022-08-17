@@ -1,8 +1,8 @@
 {
-  "title": "O-Launcher",
+  "title": "Tilda-Launcher",
   "rules": [
     {
-      "description": "O-Launcher",
+      "description": "Tilda-Launcher",
       "manipulators": [
         {
           "type": "basic",

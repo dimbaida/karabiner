@@ -1,8 +1,8 @@
 {
-  "title": "F-Launcher",
+  "title": "Finder-Launcher",
   "rules": [
     {
-      "description": "F-Launcher",
+      "description": "Finder-Launcher",
       "manipulators": [
         {
           "type": "basic",
