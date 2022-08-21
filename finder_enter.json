@@ -1,0 +1,32 @@
+{
+  "title": "Launch File by Enter",
+  "rules": [
+    {
+      "description": "Launch File by Enter",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "return_or_enter",
+            "modifiers": {
+              "mandatory": [ ],
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "o",
+              "modifiers": [ "left_command" ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [ "com.apple.finder" ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
